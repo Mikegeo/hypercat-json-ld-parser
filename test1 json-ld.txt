@@ -1,0 +1,233 @@
+{
+"@graph" : [ 
+    {
+     "@id": "http://localhost:8080/Hypercat-jsonld-full1/cat/Test1.json",
+        "http://portal.bt-hypercat.com/ontologies/hypercat#isContentType" :   "application/ld+json", 
+        "https://www.w3.org/2000/01/rdf-schema#comment" :   {
+       "@language" : "en",
+       "@value": "BT Hypercat DataHub Catalog"
+    }, 
+        "http://portal.bt-hypercat.com/ontologies/hypercat#hasItem": [
+    {     
+      "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2"
+     },
+    {     
+      "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/0"
+     },
+    {     
+      "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/1"
+     },
+    {     
+      "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/2"
+     },
+    {     
+      "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/3"
+     },
+    {     
+      "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/4"
+     },
+    {     
+      "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/5"
+     },
+    {     
+      "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/6"
+     },
+    {     
+      "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/7"
+     },
+    {     
+      "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/8"
+     },
+    {     
+      "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/9"
+     }
+   ],
+        "http://portal.bt-hypercat.com/ontologies/hypercat#supportsSearch" :  [
+   {
+       "@id":"http://portal.bt-hypercat.com/ontologies/hypercat#SimpleSearch"
+    },
+   {
+       "@id":"http://portal.bt-hypercat.com/ontologies/hypercat#PrefixSearch"
+    },
+   {
+       "@id":"http://portal.bt-hypercat.com/ontologies/hypercat#MultiSearch"
+    },
+   {
+       "@id":"http://portal.bt-hypercat.com/ontologies/hypercat#LexrangeSearch"
+    },
+   {
+       "@id":"http://portal.bt-hypercat.com/ontologies/hypercat#GeoboundSearch"
+    }
+  ]
+   },
+    {
+     "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2",
+        "https://www.w3.org/2000/01/rdf-schema#comment" :   {
+       "@language" : "en",
+       "@value": "Met Office Datapoint UK hourly site-specific observations for Killowen as recorded in real time by the Met Office UK Monitoring System. Parameters reported are based on the instrumentation installed at each site."
+    }, 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#feed_title" :   "Met Office Datapoint Observations - 99015 (Killowen)", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#feed_tag" :   "weather", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#hasSensorStream" :  [
+   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/0"
+      },
+   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/1"
+      },
+   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/2"
+      },
+   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/3"
+      },
+   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/4"
+      },
+   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/5"
+      },
+   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/6"
+      },
+   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/7"
+      },
+   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/8"
+      },
+   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/9"
+      }
+  ], 
+        "http://www.w3.org/2003/01/geo/wgs84_pos#lat" :   "54.067", 
+        "http://www.w3.org/2003/01/geo/wgs84_pos#long" :   "-6.183", 
+        "http://portal.bt-hypercat.com/ontologies/hypercat#isContentType" :  [
+   "application/json",
+   "application/xml",
+   "text/xml",
+   "text/csv"
+  ], 
+        "http://portal.bt-hypercat.com/ontologies/hypercat#hasLicense" :   {
+         "@id": "http://reference.data.gov.uk/id/open-government-licence"
+      }, 
+        "@type" :   "http://portal.bt-hypercat.com/ontologies/bt-hypercat#sensors", 
+        "http://portal.bt-hypercat.com/ontologies/hypercat#lastUpdated" :   {
+       "@type":"http://www.w3.org/2001/XMLSchema#dateTime",
+       "@value": "2017-02-22T17:36:32Z"
+    }
+   },
+    {
+     "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/0",
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#belongsToSensorFeed" :   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2"
+      }, 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_max_value" :   "max_value=50", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_min_value" :   "min_value=-30", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_text" :   "degrees Celsius", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_symbol" :   "degrees Celsius", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_type" :   "derivedSI", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_tag" :   "temperature", 
+        "@type" :   "http://portal.bt-hypercat.com/ontologies/bt-hypercat#SensorStream"
+   },
+    {
+     "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/1",
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#belongsToSensorFeed" :   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2"
+      }, 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_text" :   "16 point compass", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_type" :   "contextDependentUnits", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_tag" :   "winddirection", 
+        "@type" :   "http://portal.bt-hypercat.com/ontologies/bt-hypercat#SensorStream"
+   },
+    {
+     "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/2",
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#belongsToSensorFeed" :   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2"
+      }, 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_text" :   "miles per hour", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_symbol" :   "mph", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_type" :   "derivedUnits", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_tag" :   "windspeed", 
+        "@type" :   "http://portal.bt-hypercat.com/ontologies/bt-hypercat#SensorStream"
+   },
+    {
+     "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/3",
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#belongsToSensorFeed" :   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2"
+      }, 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_text" :   "miles per hour", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_symbol" :   "mph", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_type" :   "derivedUnits", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_tag" :  [
+   "windspeed",
+   "gust"
+  ], 
+        "@type" :   "http://portal.bt-hypercat.com/ontologies/bt-hypercat#SensorStream"
+   },
+    {
+     "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/4",
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#belongsToSensorFeed" :   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2"
+      }, 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_text" :   "percent", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_symbol" :   "%", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_type" :   "contextDependentUnits", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_tag" :   "humidity", 
+        "@type" :   "http://portal.bt-hypercat.com/ontologies/bt-hypercat#SensorStream"
+   },
+    {
+     "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/5",
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#belongsToSensorFeed" :   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2"
+      }, 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_text" :   "degrees Celsius", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_symbol" :   "degrees Celsius", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_type" :   "derivedSI", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_tag" :   "dewpoint", 
+        "@type" :   "http://portal.bt-hypercat.com/ontologies/bt-hypercat#SensorStream"
+   },
+    {
+     "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/6",
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#belongsToSensorFeed" :   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2"
+      }, 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_text" :   "hectoPascals", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_symbol" :   "hPa", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_type" :   "derivedSI", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_tag" :   "pressure", 
+        "@type" :   "http://portal.bt-hypercat.com/ontologies/bt-hypercat#SensorStream"
+   },
+    {
+     "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/7",
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#belongsToSensorFeed" :   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2"
+      }, 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_text" :   "Rising/Falling", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_type" :   "contextDependentUnits", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_tag" :   "pressure", 
+        "@type" :   "http://portal.bt-hypercat.com/ontologies/bt-hypercat#SensorStream"
+   },
+    {
+     "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/8",
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#belongsToSensorFeed" :   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2"
+      }, 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_text" :   "metres", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_symbol" :   "m", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_type" :   "basicSI", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_tag" :   "visibility", 
+        "@type" :   "http://portal.bt-hypercat.com/ontologies/bt-hypercat#SensorStream"
+   },
+    {
+     "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2/datastreams/9",
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#belongsToSensorFeed" :   {
+         "@id": "http://api.bt-hypercat.com/sensors/feeds/fa899552-044a-48e2-bdbe-0076292fd4a2"
+      }, 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_text" :   "Weather type", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_unit_type" :   "contextDependentUnits", 
+        "http://portal.bt-hypercat.com/ontologies/bt-hypercat#datastream_tag" :   "description", 
+        "@type" :   "http://portal.bt-hypercat.com/ontologies/bt-hypercat#SensorStream"
+   }
+   ]
+ }
