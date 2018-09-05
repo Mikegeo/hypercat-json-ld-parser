@@ -347,36 +347,6 @@ function JSON_to_MAP(turtleMap, href, rel, val) {
   }
 }
 
-// Translate a JSON triple into an RDF triple
-function JSON_to_RDF(href, rel, val) {
-
-  // RDF Subject (catalogue URI or item href)
-  var triple_text = formatURI(href);
-
-  // JSON to RDF translation defined for the given rel
-  if (hyperCatRels[rel] != null) {
-    //RDF Predicate
-    triple_text +=  formatURI(hyperCatRels[rel].rdfRel);
-
-    // check if val needs to be tranlated into RDF
-    if (hyperCatVals[val] != null) {
-      val = hyperCatVals[val].rdfVal
-    }
-    
-    // RDF Object
-    triple_text += hyperCatRels[rel].rdfValFunc(val);
-    return triple_text + ".<br/>";
-    
-  } else {
-    // JSON to RDF translation is not defined for the given rel
-    if (document.getElementById("includeErrors").checked){
-      return "<font color=\"red\">Error! Could not translate: \"" + href + "\" \"" + rel + "\" \"" + val + "\"</font> .<br/>";
-    } else {
-      return "";
-    }
-  }
-}
-
 //return a given uri
 function formatURI(uri) {
   return  uri;
